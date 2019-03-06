@@ -1,0 +1,16 @@
+PODS:
+  - SwiftyDraw (2.1.5)
+
+DEPENDENCIES:
+  - SwiftyDraw
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SwiftyDraw
+
+SPEC CHECKSUMS:
+  SwiftyDraw: 217d029fe7b0d351053a58d91fc0a1d2dcd8cdec
+
+PODFILE CHECKSUM: a63f1b0e5e90245daac454ae9a0f88939debd36f
+
+COCOAPODS: 1.5.3
