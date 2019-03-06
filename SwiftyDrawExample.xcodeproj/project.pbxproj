@@ -128,11 +128,11 @@
 			isa = PBXGroup;
 			children = (
 				A510CA4F222F8FB8004007D7 /* AppDelegate.swift */,
-				A510CA53222F8FB8004007D7 /* Main.storyboard */,
+				A510CA81222F9CE7004007D7 /* View */,
+				A510CA82222F9CEE004007D7 /* Controller */,
 				A510CA56222F8FB9004007D7 /* Assets.xcassets */,
 				A510CA58222F8FB9004007D7 /* LaunchScreen.storyboard */,
 				A510CA5B222F8FB9004007D7 /* Info.plist */,
-				A510CA7D222F918F004007D7 /* SwiftyDrawViewController.swift */,
 			);
 			path = SwiftyDrawExample;
 			sourceTree = "<group>";
@@ -153,6 +153,22 @@
 				A510CA71222F8FB9004007D7 /* Info.plist */,
 			);
 			path = SwiftyDrawExampleUITests;
+			sourceTree = "<group>";
+		};
+		A510CA81222F9CE7004007D7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A510CA53222F8FB8004007D7 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A510CA82222F9CEE004007D7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A510CA7D222F918F004007D7 /* SwiftyDrawViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		C5D350F47DC567607DCC84EC /* Frameworks */ = {
