@@ -14,6 +14,7 @@
 		A510CA5A222F8FB9004007D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A510CA58222F8FB9004007D7 /* LaunchScreen.storyboard */; };
 		A510CA65222F8FB9004007D7 /* SwiftyDrawExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A510CA64222F8FB9004007D7 /* SwiftyDrawExampleTests.swift */; };
 		A510CA70222F8FB9004007D7 /* SwiftyDrawExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A510CA6F222F8FB9004007D7 /* SwiftyDrawExampleUITests.swift */; };
+		A510CA7E222F918F004007D7 /* SwiftyDrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A510CA7D222F918F004007D7 /* SwiftyDrawViewController.swift */; };
 		BF95FD713747EE77CB6735A2 /* Pods_SwiftyDrawExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806455FC339C127D807A195B /* Pods_SwiftyDrawExample.framework */; };
 		D784F8F41220F7204B1B4454 /* Pods_SwiftyDrawExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21DC736FC70D022E39FE51B8 /* Pods_SwiftyDrawExampleTests.framework */; };
 /* End PBXBuildFile section */
@@ -54,6 +55,7 @@
 		A510CA6B222F8FB9004007D7 /* SwiftyDrawExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyDrawExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A510CA6F222F8FB9004007D7 /* SwiftyDrawExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyDrawExampleUITests.swift; sourceTree = "<group>"; };
 		A510CA71222F8FB9004007D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A510CA7D222F918F004007D7 /* SwiftyDrawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyDrawViewController.swift; sourceTree = "<group>"; };
 		EB4592BCFB21501BF497B52F /* Pods-SwiftyDrawExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyDrawExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyDrawExampleTests/Pods-SwiftyDrawExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		F1652468E1EF61D64956CE60 /* Pods-SwiftyDrawExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyDrawExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyDrawExample/Pods-SwiftyDrawExample.release.xcconfig"; sourceTree = "<group>"; };
 		F595318618AE5D54A4145C35 /* Pods-SwiftyDrawExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyDrawExampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyDrawExampleUITests/Pods-SwiftyDrawExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				A510CA56222F8FB9004007D7 /* Assets.xcassets */,
 				A510CA58222F8FB9004007D7 /* LaunchScreen.storyboard */,
 				A510CA5B222F8FB9004007D7 /* Info.plist */,
+				A510CA7D222F918F004007D7 /* SwiftyDrawViewController.swift */,
 			);
 			path = SwiftyDrawExample;
 			sourceTree = "<group>";
@@ -388,6 +391,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A510CA7E222F918F004007D7 /* SwiftyDrawViewController.swift in Sources */,
 				A510CA50222F8FB8004007D7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
